@@ -1,4 +1,4 @@
-//import ByTwos.java;
+
 
 public class SeriesDemo {
 
@@ -18,7 +18,9 @@ public class SeriesDemo {
 			System.out.println(three.getNext());
 		}
 		three.setStart(100);
-		
+		for (int j=0;j<5;j++) {
+			System.out.println(three.getNext());
+		}
 	}
 
 }
